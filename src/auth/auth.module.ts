@@ -19,6 +19,6 @@ import * as fs from 'fs';
 
   controllers: [AuthController],
   providers: [AuthService, JwtStrategy],
-  exports: [PassportModule, AuthService],
+  exports: [AuthService],
 })
 export class AuthModule { }
